@@ -1,11 +1,11 @@
 {
   "goals": [
     {
-      "id": "21a2",
-      "description": "Do 100 pushups",
+      "id": "7603",
+      "description": "Do 10 pushups",
       "category": "Strength Training",
-      "repetitions": "20",
-      "achieved": true
+      "repetitions": "3",
+      "achieved": false
     }
   ]
 }
