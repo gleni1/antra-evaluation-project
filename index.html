@@ -4,8 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fitness Goal Track</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="Controller.js" defer></script>
 </head>
 <body>
-    
+    <div class="container">
+        <h1>Fitness Goal Tracker</h1>
+        <form>
+            <label for="">Fitness Goal</label>
+            <input class="goal__input" type="text" placeholder="Enter fitness goal"/>
+            <label for="">Category</label>
+            <select id="category" class="category" name="category">
+                <option value="Strength Training">Strength Training</option>
+                <option value="Cardio">Cardio</option>
+                <option value="Flexibility">Flexibility</option>
+                <option value="Mobility">Mobility</option>
+                <option value="Yoga">Yoga</option>
+            </select>
+            <label for="">Repetitions</label>
+            <input class="rep__input" type="text" placeholder="Enter repetitions"/>
+            <button class="goal__btn">Add Goal</button>
+        </form>
+        <ul class="goal__list">
+        </ul>
+    </div>
 </body>
 </html>
